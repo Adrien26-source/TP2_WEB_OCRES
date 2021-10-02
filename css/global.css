@@ -1,9 +1,47 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px){
+    
+    .search {
+      display: none;
+    }
+  }
+
+
+@media screen and (max-width: 600px){
+    
+    .share {
+      display: none;
+    }
+  }
+
+
+@media screen and (max-width: 1400px){
+    
+    .name p{
+        font-size: 1em;
+    }
+  }
+
+@media screen and (max-width: 600px){
+    
+    .name p{
+        font-size: 0.6em;
+    }
+  }
+
+@media screen and (max-width: 450px){
+    
+    .name p{
+        font-size: 0.3em;
+    }
+  }
+  
 
 * { 
     font-family: 'My Lucida', Console;
@@ -12,6 +50,7 @@
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
 }
+
 
 a {
     color: black;
@@ -24,8 +63,10 @@ a {
 
 body > header {
     margin-bottom: 20px;
+    width: 1300px;
     background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
+
 }
 
 header .logo-search form  {
@@ -66,7 +107,7 @@ nav ul li a {
 }
 
 .btn-group{
-margin-left: 1150px;
+margin-left: 1200px;
 
 }
 
